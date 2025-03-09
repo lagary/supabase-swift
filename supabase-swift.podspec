@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name             = 'supbase-swift'
+  s.name             = 'supabase-swift'
   s.version          = '0.1.0'
   s.summary          = 'Swift client for Supabase'
   s.description      = <<-DESC
