@@ -18,11 +18,11 @@ Pod::Spec.new do |s|
   s.tvos.deployment_target = '13.0'
   
   # Common dependencies for all subspecs
-  s.dependency 'ConcurrencyExtras', '~> 1.1.0'
-  s.dependency 'CustomDump', '~> 1.3.2'
-  s.dependency 'Swift-Clocks', '~> 1.0.0'
-  s.dependency 'XCTestDynamicOverlay', '~> 1.2.2'
-  s.dependency 'HTTPTypes', '~> 1.3.0'
+  # s.dependency 'ConcurrencyExtras', '~> 1.1.0'
+  # s.dependency 'CustomDump', '~> 1.3.2'
+  # s.dependency 'Swift-Clocks', '~> 1.0.0'
+  # s.dependency 'XCTestDynamicOverlay', '~> 1.2.2'
+  # s.dependency 'HTTPTypes', '~> 1.3.0'
   
   # Define base subspec for common helpers
   s.subspec 'Helpers' do |helpers|
