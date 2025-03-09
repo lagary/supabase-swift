@@ -18,11 +18,11 @@ Pod::Spec.new do |s|
   s.tvos.deployment_target = '13.0'
   
   # Common dependencies for all subspecs
-  #s.dependency 'ConcurrencyExtras', '~> 1.1.0'
-  #s.dependency 'CustomDump', '~> 1.3.2'
-  #s.dependency 'Swift-Clocks', '~> 1.0.0'
-  #s.dependency 'XCTestDynamicOverlay', '~> 1.2.2'
-  #s.dependency 'HTTPTypes', '~> 1.3.0'
+  s.dependency 'ConcurrencyExtras', :git => 'https://github.com/lagary/swift-concurrency-extras.git', :branch => 'main'
+  s.dependency 'XCTestDynamicOverlay', :git => 'https://github.com/lagary/swift-issue-reporting.git', :branch => 'main'
+  s.dependency 'HTTPTypes', :git => 'https://github.com/lagary/swift-http-types.git', :branch => 'main'
+  s.dependency 'Swift-Clocks', :git => 'https://github.com/lagary/swift-clocks.git', :branch => 'main'
+  s.dependency 'CustomDump', :git => 'https://github.com/lagary/swift-custom-dump.git', :branch => 'main'
   
   # Define base subspec for common helpers
   s.subspec 'Helpers' do |helpers|
