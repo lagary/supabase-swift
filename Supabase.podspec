@@ -33,7 +33,7 @@ Pod::Spec.new do |s|
   s.subspec 'Auth' do |auth|
     auth.source_files = 'Sources/Auth/**/*'
     auth.dependency 'Supabase/Helpers'
-    auth.dependency 'SwiftCrypto', '~> 2.0.0'
+    #auth.dependency 'SwiftCrypto', '~> 2.0.0'
   end
   
   # Define Functions subspec
